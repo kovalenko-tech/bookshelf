@@ -1,0 +1,21 @@
+include: package:very_good_analysis/analysis_options.2.4.0.yaml
+
+analyzer:
+  exclude:
+    - '**/*.config.dart'
+    - '**/*.freezed.dart'
+    - '**/*.gr.dart'
+    - '**/*.g.dart'
+    - '**/*.i69n.dart'
+    - 'lib/models/**'
+
+linter:
+  rules:
+    public_member_api_docs: false
+    always_use_package_imports: false
+    library_private_types_in_public_api: false
+    implicit_dynamic_map_literal: false
+    directives_ordering: false
+    lines_longer_than_80_chars: false
+    sort_constructors_first: false
+    prefer_constructors_over_static_methods: false

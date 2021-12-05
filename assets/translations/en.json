@@ -1,0 +1,17 @@
+{
+    "auth_title": "Bookshelf",
+    "auth_buttons_login": "Login",
+    "auth_buttons_register": "Register",
+    "login_title": "Login",
+    "login_fields_title": "Username",
+    "login_fields_password": "Password",
+    "login_button": "Login",
+    "register_title": "Register",
+    "register_fields_title": "Username",
+    "register_fields_password": "Password",
+    "register_button": "Register",
+    "error_sww": "Something went wrong",
+    "main_logout": "Logout",
+    "main_textfield_hint": "Search books...",
+    "main_empty": "Hmmm... I couldn't find any books with the query \"{text}\" Please try another."
+}

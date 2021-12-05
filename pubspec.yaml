@@ -1,0 +1,73 @@
+name: bookshelf
+description: Bookshelf app created by Kyrylo Kovalenko.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
+dependencies:
+  auto_route: 3.1.3
+  bloc: 8.0.1
+  cached_network_image: 3.2.0
+  dartz: 0.10.1
+  dio: 4.0.4
+  easy_localization: 3.0.0
+  flash: 2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: 8.0.0
+  flutter_screenutil: 5.0.1
+  flutter_secure_storage: 5.0.2
+  freezed_annotation: 1.0.0
+  hexcolor: 2.0.5
+  injectable: 1.5.0
+  logger: 1.1.0
+  quiver: 3.0.1+1
+  retrofit: 3.0.0
+  tap_debouncer: 2.0.1
+
+dev_dependencies:
+  auto_route_generator: 3.1.0
+  bloc_test: 9.0.1
+  build_runner: 2.1.5
+  flutter_gen_runner: 4.1.2
+  flutter_native_splash: 1.3.2
+  flutter_svg: 0.22.0
+  flutter_test:
+    sdk: flutter
+  freezed: 1.0.0
+  injectable_generator: 1.5.2
+  json_to_model: 3.0.3
+  mocktail: 0.2.0
+  retrofit_generator: 3.0.0
+  very_good_analysis: 2.4.0
+
+flutter_gen:
+  output: lib/generated/
+  line_length: 120
+
+  integrations:
+    flutter_svg: true
+  
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/logo.png
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/translations/
+
+  fonts:
+    - family: Futura PT
+      fonts:
+        - asset: assets/fonts/futura-pt-demi.ttf
+          weight: 600
+        - asset: assets/fonts/futura-pt-medium.ttf
+          weight: 500
+        - asset: assets/fonts/futura-pt-book.ttf
+          weight: 400
